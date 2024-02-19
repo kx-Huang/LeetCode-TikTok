@@ -21,3 +21,17 @@
 ### 621: Task Scheduler
 
 - Group by most frequency task
+
+### 694: Number of Distinct Island
+
+- store list with coordinates which are related to the starting point representing an Island
+- add island list to set and count
+
+### 259: 3Sum Smaller
+
+- Need O(n^2)
+- sort the list, loop each number i,
+- set j,k to the remaining smallest and largest
+- do while j < k
+- if good, than we know the count for fix i and k, make j+1 (try bigger)
+- if no good, than make k-1 (try smaller)
