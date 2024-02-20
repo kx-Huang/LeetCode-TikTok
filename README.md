@@ -35,3 +35,16 @@
 - do while j < k
 - if good, than we know the count for fix i and k, make j+1 (try bigger)
 - if no good, than make k-1 (try smaller)
+
+### 418: Sentence Screen Fitting
+
+- construct 'word1_word2_word3_'
+- maintain a pointer
+- 3 cases: row ends with space ('_'), row ends with end of a word, row ends in middle of word
+
+### 1530: Number of Goodf Leaf Nodes Pair
+
+- `left/right = dfs(node)`
+- `left/right = [1,2,3]`: each item represents their children's path length to them
+- update sum with left and right information: if [1,2,3] and [4,5,6], distance = 6, then add 3 pairs (1+4, 2+4, 1+5)
+- return [2,3,4]: each children path length+1 for upper level
