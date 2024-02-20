@@ -20,4 +20,6 @@ class Solution:
                 while ptr > 0 and s[ptr % n] != ' ':
                     ptr -= 1
                 ptr += 1
+            # at here pointer always at the end of a row
+
         return ptr // n
