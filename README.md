@@ -48,3 +48,12 @@
 - `left/right = [1,2,3]`: each item represents their children's path length to them
 - update sum with left and right information: if [1,2,3] and [4,5,6], distance = 6, then add 3 pairs (1+4, 2+4, 1+5)
 - return [2,3,4]: each children path length+1 for upper level
+
+### 2422: Merge Operations to Turn Array Into a Palindrome
+
+- two pointer from leftmost and rightmost
+- if not equal, sum and keep comparing unitl left meet right
+
+#### 1010: Pairs of Songs With Total Durations Divisible by 60
+
+- two pointer (sum 0 or 60) but mod 60 version
