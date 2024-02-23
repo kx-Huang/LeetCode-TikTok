@@ -54,6 +54,20 @@
 - two pointer from leftmost and rightmost
 - if not equal, sum and keep comparing unitl left meet right
 
-#### 1010: Pairs of Songs With Total Durations Divisible by 60
+### 1010: Pairs of Songs With Total Durations Divisible by 60
 
 - two pointer (sum 0 or 60) but mod 60 version
+
+### 1541: Minimum Insertions to Balance a Parentheses String
+
+- keep track of left count (to represent a stack)
+- if left, just add it to stack
+- if right:
+  - but no left in stack, add one left to stack and increase count
+  - and left in stack, check next one (if exist):
+    - if still is a right, pop stack (because one left matches two rights)
+    - if not a right, increase one count and pop one left
+
+### 2115. Find All Possible Recipes from Given Supplies
+
+- topology sort but initalize queue to supplies only (not all in_degree 0 nodes)
