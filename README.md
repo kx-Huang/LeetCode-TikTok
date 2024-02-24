@@ -68,6 +68,11 @@
     - if still is a right, pop stack (because one left matches two rights)
     - if not a right, increase one count and pop one left
 
-### 2115. Find All Possible Recipes from Given Supplies
+### 2115: Find All Possible Recipes from Given Supplies
 
 - topology sort but initalize queue to supplies only (not all in_degree 0 nodes)
+
+### 856: Score of Parentheses
+
+- use stack: `['(', 1, '(', 2]`
+- match left and right and push score to stack for future compute
