@@ -3,6 +3,7 @@
 ## Problem List
 
 ### 2217. Kth Palindrome
+
 - find pattern in half and build whole
 
 ### 666. Path Sum
@@ -82,7 +83,6 @@
 - use stack: `['[', 'a', '[', 'c', 'd']`
 - use another stack to keep track of number: `[2, 4]`
 - expand when encounter a `]`, pop number stack as frequency: `cd` and `4` gives `cdcd`, put back to queue `['[', 'a', 'c', 'd', 'c', 'd']`
-
 
 ### 886. Possible Bipartition
 
